@@ -2,6 +2,7 @@ The instructions how to run the application.
 Backend: 
 1. Navigate to the backend directory: cd server;
 2. Start the backend server: "npm start";
+
 Frontend:
 1. Navigate to the frontend directory: cd client;
 2. Start the frontend part: "npm run dev";
