@@ -1,0 +1,29 @@
+.cartPage {
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    height: calc(100vh - 70px); 
+    gap: 20px; 
+    padding: 40px;
+    position: relative;
+    &__loading {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+        opacity: .6;
+    }
+    &__successfulOrder, &__error {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        background-color: rgb(239, 238, 243);
+        height: 7rem;
+        width: 20rem;
+        text-align: center;
+        line-height: 7rem;
+        font-weight: 700;
+        z-index: 100;
+    }
+}
